@@ -1,0 +1,23 @@
+{
+  "name": "@dun-cat/react-app-rewire-micro-frontends",
+  "version": "0.0.2",
+  "description": "用于 react 微恰当项目的 webpack 配置修改",
+  "main": "config-overrides.js",
+  "scripts": {
+    "pub": "npm run updateVersion && npm publish --access=public",
+    "updateVersion": "npm --no-git-tag-version version patch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dun-cat/react-app-rewire-micro-frontends.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dun-cat/react-app-rewire-micro-frontends/issues"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  },
+  "homepage": "https://github.com/dun-cat/react-app-rewire-micro-frontends#readme"
+}
